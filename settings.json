@@ -1,0 +1,144 @@
+{
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"editor.formatOnPaste": true,
+	"editor.largeFileOptimizations": true,
+	"editor.renderWhitespace": "none",
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingOvertype": "always",
+	"editor.autoClosingQuotes": "always",
+	"editor.autoClosingDelete": "always",
+	
+	// explorer
+	"explorer.confirmDelete": false,
+
+	// files
+    "files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 0,
+
+	// fonts -> == != 
+	"debug.console.fontFamily": "Consolas, Roboto Mono, JetBrains Mono, Fira Code, Source Code Pro, monospace",
+	"editor.fontFamily": "Consolas, Roboto Mono, JetBrains Mono, Fira Code, Source Code Pro, monospace",
+
+	"editor.fontWeight": "400",
+	"editor.lineHeight": 1.25,
+	
+	
+	"debug.console.fontSize": 14,
+	"editor.fontSize": 14,
+
+	"editor.fontLigatures": false,
+	"editor.tabSize": 2,
+	"editor.useTabStops": true,
+	"editor.stickyTabStops": true,
+	
+	// discord
+	"discord.removeTimestamp": true,
+	"discord.detailsEditing": "📁Directory: {dir_name}/{file_name}",
+	"discord.lowerDetailsEditing": "📝Line: {current_line}/{total_lines} Col: {current_column}",
+	
+	// UI
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.editor.highlightModifiedTabs": false,
+	"workbench.editor.tabCloseButton": "off",
+	"workbench.editor.decorations.badges": false,
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.showIcons": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.sideBar.location": "right",
+	"editor.overviewRulerBorder": false,
+	// "editor.lineNumbers": "off",
+	// "editor.glyphMargin": false, // break points bar
+
+	// tab bar
+	"breadcrumbs.filePath": "off",
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnums": false,
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showInterfaces": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showModules": false,
+	"breadcrumbs.showNamespaces": false,
+	"breadcrumbs.showNull": false,
+	"breadcrumbs.showNumbers": false,
+	"breadcrumbs.showObjects": false,
+	"breadcrumbs.showOperators": false,
+	"breadcrumbs.showPackages": false,
+	"breadcrumbs.showProperties": false,
+	"breadcrumbs.showStrings": false,
+	"breadcrumbs.showStructs": false,
+	"breadcrumbs.showTypeParameters": false,
+	"breadcrumbs.showVariables": false,
+	"breadcrumbs.enabled": false,
+
+	// disable bars
+	"workbench.editor.showTabs": false,
+	"editor.renderLineHighlight": "none",
+	"workbench.statusBar.visible": false,
+	
+	// themes
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "One Dark Darker",
+
+	// disable scrollbars
+	"editor.scrollbar.horizontalScrollbarSize": 0,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.scrollbar.vertical": "hidden",
+	"editor.minimap.enabled": false,
+	
+	// hints
+	// "editor.hover.delay": 1000,
+	// "editor.suggest.snippetsPreventQuickSuggestions": false,
+	// "editor.suggest.showKeywords": false,
+	// "editor.suggest.showWords": false,
+	// "editor.inlineSuggest.enabled": false,
+	// "editor.quickSuggestionsDelay": 1073741824,
+	// "editor.quickSuggestions": {
+	// 	"other": "off"
+	// },
+	// "editor.inlayHints.enabled": "off",
+	// "editor.parameterHints.enabled": false,
+	// "editor.suggestOnTriggerCharacters": false,
+
+	// golang
+	"go.autocompleteUnimportedPackages": true,
+	"go.installDependenciesWhenBuilding": true,
+	"editor.guides.indentation": false,
+
+	"go.toolsManagement.autoUpdate": true,
+	
+	"terminal.integrated.allowMnemonics": true,
+	"workbench.editor.splitInGroupLayout": "vertical",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	
+	"terminal.integrated.useWslProfiles": false,
+	
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+}
